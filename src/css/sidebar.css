@@ -1,0 +1,29 @@
+#sidebar {
+    color: #333;
+    height: 100vh;
+    width: 14rem;
+    padding: 1rem 2rem 0 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #c9c4c4
+}
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    text-decoration: underline;
+}
